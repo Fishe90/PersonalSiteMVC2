@@ -1,0 +1,11 @@
+/* your styles go here */
+
+.navbar-nav {
+    margin-bottom: 8em;
+}
+
+.navbar img {
+    width: 4em;
+    height: 4em;
+    margin-bottom: 6em;
+}

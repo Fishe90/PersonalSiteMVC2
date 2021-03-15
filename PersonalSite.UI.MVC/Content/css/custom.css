@@ -1,0 +1,249 @@
+/* your styles go here */
+
+.nav {
+    /*text-decoration: none;*/
+    /*margin-left: auto;*/
+}
+
+h2 {
+    /*border-top: solid 2px white;*/
+    /*background-color: white;*/
+    text-decoration-color: white;
+    text-shadow: 0px 0px 10px black;
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h3 {
+    text-shadow: 0px 0px 10px black;
+    /*padding-top: 1em;
+    text-align: center;
+    color: white;
+    font-size: 50px;*/
+}
+
+body {
+    background-image: url('../img/web-design-2018.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    /*margin-left: 15em;
+    margin-right: 15em;*/
+}
+
+main {
+    color: white;
+    margin-left: 15em;
+    margin-right: 15em;
+    /*text-shadow: 0px 0px 10px black;*/
+    /*background-color: white;*/
+}
+
+.navbar-nav {
+    padding-bottom: 0em;
+}
+
+.footer {
+    /*margin-right: auto;*/
+    width: 100%;
+    height: 70px;
+    position: relative;
+    bottom: 0;
+    /*margin-bottom: 0;*/
+    text-align: center;
+    background: rgb(85,85,85);
+}
+
+.footer h4 {
+    color: lightgray;
+    padding: 10px;
+}
+
+/*#region Home Styling*/
+
+#homeTitle {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*#endregion*/
+
+/*#region Resume Styling*/
+
+#resumeTitle {
+    padding-left: .5em;
+    display: block;
+    font-size: 100px;
+}
+
+/*#endregion*/
+
+/*#region Portfolio Styling*/
+
+#carouselExampleIndicators {
+    margin-bottom: 10em;
+}
+
+.carousel-item img {
+    /*box-shadow: inset 10px 10px 100px black;*/
+    /*color: black;*/
+    /*background-color: black;*/
+    opacity: .90;
+}
+
+.carousel-item h5 {
+    text-align: left;
+    text-shadow: 0px 0px 10px black;
+    color: white;
+    font-size: 3em;
+}
+
+.carousel-item p {
+    text-align: left;
+    text-shadow: 0px 0px 10px black;
+    padding-bottom: 5em;
+    color: white;
+    font-size: 2em;
+}
+
+/*#endregion*/
+
+/*#region Links Styling*/
+.subtitle {
+    padding-left: 2.5em;
+    font-family: 'Arial Rounded MT';
+    display: block;
+}
+
+.titleLinks {
+    font-size: 75px;
+    position: center;
+    display: inline-block;
+}
+
+#LinksTitle {
+    font-size: 75px;
+    text-align: center;
+}
+
+#logo {
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 65px;
+    background-color: rgb(218,77,77);
+    color: wheat;
+    height: 75px;
+    width: 75px;
+    border-radius: 15px
+}
+
+#logo:hover {
+    background-color: crimson;
+    transition: ease-in-out .15s;
+}
+
+.tabLink {
+    width: 250px;
+    align-content: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.linkTable {
+    text-align: center;
+    align-items: center;
+}
+
+#linkTable li {
+    background-color: white;
+    padding-left: 1em;
+    border-radius: 5px;
+    /*border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;*/
+    /*background-color: snow;*/
+    box-shadow: 7px 7px .25em gray;
+    text-emphasis-position: above;
+    color: darkslategray;
+    border-top: 10px solid white;
+    transition: ease-in-out .1s;
+    height: 6em;
+    width: 12em;
+    display: inline-block;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-bottom: 2em;
+    /*border: 1px solid lightgray;*/
+    /*padding: 1em;*/
+    font-size: 1.65vw;
+}
+
+#linkTable li:hover {
+    /*border-radius: 25px;*/
+    /*border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;*/
+    height: 5.95em;
+    /*box-shadow: 2.5px 2.5px .25em transparent;*/
+    border-top: 10px solid red;
+    transition: ease-in .15s;
+    /*background-color: #FFB3B3;*/
+    background-color: lightgray;
+}
+
+#linkTable li:active {
+    transition: .1s;
+    width: 12em;
+    height: 5.85em;
+    box-shadow: 2.5px 2.5px .25em transparent;
+    box-shadow: inset 0 0 10px darkgray;
+}
+
+#linkTable li p {
+    padding-bottom: 4em;
+    text-decoration: gray;
+    padding-top: 5px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#linkTable a {
+    /*float: right;*/
+    display: inline-block;
+    color: crimson;
+    /*color: cornflowerblue;*/
+}
+
+#linkTable li img {
+    border-right: 5px solid red;
+    display: block;
+    border-radius: 5%;
+    width: 3.5em;
+    height: 3.5em;
+    /*padding: 2em;*/
+}
+
+/*#endregion*/
+
+/*#region Contact Styling*/
+
+.form-horizontal{
+    padding-bottom: 10em;
+}
+
+.form-horizontal .form-group {
+    /*background-*/ color: white;
+    margin: 0 10em;
+    /*padding: 0 1em;*/
+    text-decoration: none;
+}
+
+.form-group label {
+    padding-top: 1em;
+    text-shadow: 0px 0px 15px black;
+    font-size: 25px;
+    color: white;
+}
+
+/*#endregion*/
+
