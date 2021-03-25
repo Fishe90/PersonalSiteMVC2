@@ -26,30 +26,35 @@ h3 {
 
 body {
     background-image: url('../img/web-design-2018.png');
+    /*background-color: dimgray;*/
     background-size: 100%;
     background-attachment: fixed;
     /*margin-left: 15em;
     margin-right: 15em;*/
 }
 
-main {
+main {    
     color: white;
-    margin-left: 15em;
-    margin-right: 15em;
+    margin: auto;
+    width: 75%;
+    /*margin-left: 15em;
+    margin-right: 15em;*/
     /*text-shadow: 0px 0px 10px black;*/
     /*background-color: white;*/
 }
 
-.navbar-nav {
+/*.navbar-nav {
     padding-bottom: 0em;
-}
+}*/
 
 .footer {
     /*margin-right: auto;*/
     width: 100%;
     height: 70px;
+    /*position: relative;*/
     position: relative;
-    bottom: 0;
+    bottom: -10em;
+    left: 0;
     /*margin-bottom: 0;*/
     text-align: center;
     background: rgb(85,85,85);
@@ -81,39 +86,130 @@ main {
 
 /*#region Portfolio Styling*/
 
-#carouselExampleIndicators {
-    margin-bottom: 10em;
+.portfolioButtons img {
+    display: block;
 }
 
-.carousel-item img {
+/*.carouselItem h5 {
+    background-color: white;
+}*/
+
+/*#carouselExampleIndicators {
+    margin-bottom: 10em;
+}*/
+
+/*.carousel-item img {
     /*box-shadow: inset 10px 10px 100px black;*/
     /*color: black;*/
     /*background-color: black;*/
-    opacity: .90;
+    /*min-height: 200px;
+    min-width: 500px;*/
+    /*opacity: .90;*/
+/*}*/
+
+.portfolioLeft img {
+    display: block;
+    float: left;
 }
 
-.carousel-item h5 {
-    text-align: left;
-    text-shadow: 0px 0px 10px black;
+.portfolioRight img {
+    display: block;
+    float: right;
+}
+
+.button {
+    /*position: center;*/
+    display: block;
+    border-top: solid 1px white;
+    /*float: right;*/
+    padding: 10px;
+    border-radius: 10px;
+    /*width: 45%;*/
+    /*margin-bottom: 250px;*/
+    /*margin: auto;*/
+    /*min-height: 100px;*/
+    background-color: #da4d4d;
+    text-align: center;
+    box-shadow: 0 -5px 5px 1px #333231 inset;
+    /*text-shadow: 0px 0px 10px black;*/
     color: white;
-    font-size: 3em;
+    font-size: 2em;
 }
 
-.carousel-item p {
+.button h5:active {
+    box-shadow: 0 -1px 10px 1px black inset;
+
+}
+
+/*.carousel-item p {
     text-align: left;
     text-shadow: 0px 0px 10px black;
     padding-bottom: 5em;
     color: white;
     font-size: 2em;
-}
+}*/
 
 /*#endregion*/
 
 /*#region Links Styling*/
 .subtitle {
-    padding-left: 2.5em;
+    text-align: center;
+    /*padding-left: 2.5em;*/
     font-family: 'Arial Rounded MT';
     display: block;
+}
+
+.contentBox {
+    display: inline-block;
+    float: left;
+}
+
+.rowLink {
+    width: 100%;
+    /*align-content: center;*/
+}
+
+.rowContent p {
+    padding-left: 5px;
+}
+
+.rowContent:active {
+    /*margin-bottom: 16px;*/
+    /*border-bottom: 20px;*/
+    margin-top: 16px;
+    box-shadow: 7px 7px .25em transparent;
+    text-decoration: none;
+    /*padding-bottom: 0;*/
+    position: sticky;
+    height: 11rem;
+}
+
+.rowContent {
+    /*position: static;*/
+    position: sticky;
+    transition: ease-in-out .1s;
+    /*margin: auto;*/
+    border-radius: .5rem;
+    margin: 10px 10px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 23px;
+    /*position: center;*/
+    width: 22rem;
+    height: 11.5rem;
+    box-shadow: 7px 7px .25em darkslategray;
+    /*display: inline-block;*/
+}
+
+.rowContent:hover {
+    background-color: lightgray;
+}
+
+.row img {
+    /*padding: 2px;*/
+    float: right;
 }
 
 .titleLinks {

@@ -17,6 +17,11 @@ namespace PersonalSite.UI.MVC.Controllers
             return View();
         }
 
+        public ActionResult TestIndex()
+        {
+            return View();
+        }
+
         public ActionResult Resume()
         {
             return View();
@@ -31,7 +36,7 @@ namespace PersonalSite.UI.MVC.Controllers
         {
             return View();
         }
-
+        [HttpGet]
         public ActionResult Contact()
         {
             return View();

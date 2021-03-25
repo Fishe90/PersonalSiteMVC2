@@ -890,9 +890,12 @@ header.nav-holder.sticky {
 }
 
 .btn-template-outlined {
-  background: none;
+  /*background: none;
   border: 1px solid #da4d4d !important;
-  color: #da4d4d;
+  color: #da4d4d;*/
+  background: #da4d4d;
+  border: 1px solid #da4d4d !important;
+  color: white;
   border-radius: 0 !important;
   text-decoration: none;
 }

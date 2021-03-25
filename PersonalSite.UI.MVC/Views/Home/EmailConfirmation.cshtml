@@ -1,47 +1,50 @@
 ﻿@model PersonalSite.UI.MVC.Models.ContactViewModel
 
 @{
-    ViewBag.Title = "EmailConfirmation";
+    ViewBag.Title = "Email Confirmation";
 }
 
-<h2>EmailConfirmation</h2>
+<div style="margin: 5em">
+    <h2>@ViewBag.Title</h2>
 
-<div>
-    <h4>ContactViewModel</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Email)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Subject)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Subject)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Subject)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Subject)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Message)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Message)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Message)
-        </dd>
-
-    </dl>
+            <dd>
+                @Html.DisplayFor(model => model.Message)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
 </div>
 
